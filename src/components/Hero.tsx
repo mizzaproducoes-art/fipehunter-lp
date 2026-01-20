@@ -35,7 +35,7 @@ export default function Hero() {
             rel="noopener noreferrer"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
-            className="w-full sm:w-auto px-8 py-4 bg-accent hover:bg-accent-dark text-black font-bold rounded-xl flex items-center justify-center gap-2 shadow-neon hover:shadow-neon-hover transition-all duration-300 decoration-none"
+            className="w-full sm:w-auto px-8 py-4 bg-accent hover:bg-accent-dark text-black font-bold rounded-xl flex items-center justify-center gap-2 shadow-neon hover:shadow-neon-hover transition-all duration-300 no-underline"
           >
             QUERO ACESSO VITALÍCIO (R$ 297)
             <ArrowRight size={20} />
