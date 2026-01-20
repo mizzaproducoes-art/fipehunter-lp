@@ -50,13 +50,16 @@ export default function Pricing() {
                 <span className="text-foreground/60 text-sm ml-2">Pagamento Único</span>
               </div>
               
-              <motion.button
+              <motion.a
+                href="https://pay.kiwify.com.br/KLov85V"
+                target="_blank"
+                rel="noopener noreferrer"
                 whileHover={{ scale: 1.02 }}
                 whileTap={{ scale: 0.98 }}
-                className="w-full py-5 bg-accent hover:bg-accent-dark text-black font-black text-xl rounded-2xl shadow-neon transition-all"
+                className="w-full py-5 bg-accent hover:bg-accent-dark text-black font-black text-xl rounded-2xl shadow-neon transition-all flex items-center justify-center decoration-none"
               >
                 GARANTIR MINHA VAGA AGORA
-              </motion.button>
+              </motion.a>
               
               <div className="mt-6 flex items-center justify-center gap-2 text-sm text-foreground/50">
                 <ShieldCheck size={16} />

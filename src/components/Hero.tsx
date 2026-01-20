@@ -29,14 +29,17 @@ export default function Hero() {
         </p>
         
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-          <motion.button
+          <motion.a
+            href="https://pay.kiwify.com.br/KLov85V"
+            target="_blank"
+            rel="noopener noreferrer"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
-            className="w-full sm:w-auto px-8 py-4 bg-accent hover:bg-accent-dark text-black font-bold rounded-xl flex items-center justify-center gap-2 shadow-neon hover:shadow-neon-hover transition-all duration-300"
+            className="w-full sm:w-auto px-8 py-4 bg-accent hover:bg-accent-dark text-black font-bold rounded-xl flex items-center justify-center gap-2 shadow-neon hover:shadow-neon-hover transition-all duration-300 decoration-none"
           >
             QUERO ACESSO VITALÍCIO (R$ 297)
             <ArrowRight size={20} />
-          </motion.button>
+          </motion.a>
           
           <p className="text-sm text-foreground/50 sm:ml-4">
             Acesso imediato • Pagamento Único
